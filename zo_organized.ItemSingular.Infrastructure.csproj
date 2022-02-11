@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Responses\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\zo_organized.Shared\zo_organized.Shared.csproj" />
+    <ProjectReference Include="..\zo_organized.ItemSingular.Domain\zo_organized.ItemSingular.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
